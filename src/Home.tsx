@@ -25,6 +25,15 @@ export default function Home() {
         <li>
           <Link to="/reducer2">Use Reducer 2 - Authentication</Link>
         </li>
+        <li>
+          <Link to="/effect1">Use Effect 1 - fetch API</Link>
+        </li>
+        <li>
+          <Link to="/effect2">Use Effect 2 - Validating input field</Link>
+        </li>
+        <li>
+          <Link to="/effect3">Use Effect 3 - Live filtering</Link>
+        </li>
       </ul>
     </main>
   )
