@@ -11,6 +11,7 @@ import Reducer2 from './Reducer2';
 import Effect1 from './Effect1';
 import Effect2 from './Effect2';
 import Effect3 from './Effect3';
+import Context1 from './Context1'
 
 export default function Routes() {
   return(
@@ -25,6 +26,7 @@ export default function Routes() {
       <Route component = { Effect1 } path="/effect1" exact />
       <Route component = { Effect2 } path="/effect2" exact />
       <Route component = { Effect3 } path="/effect3" exact />
+      <Route component = { Context1 } path="/context1" exact />
 
     </BrowserRouter>
   )

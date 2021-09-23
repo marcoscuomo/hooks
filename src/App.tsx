@@ -1,15 +1,20 @@
-import React from 'react';
-import { Router, BrowserRouter } from 'react-router-dom'
+import React, { useState, Dispatch, SetStateAction } from 'react';
 
 import Routes from './routes';
-import Home from './Home';
 import './App.css';
+import { DataContext, appCtxDefaultValue} from './data/DataContext'
 
 
 function App() {
+
+  const [state, setState] = useState(appCtxDefaultValue.state)
+
+
   return (
     <>
+    <DataContext.Provider value={{state, setState}}>
       <Routes />
+    </DataContext.Provider>
     </>
   );
 }

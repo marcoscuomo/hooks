@@ -34,6 +34,9 @@ export default function Home() {
         <li>
           <Link to="/effect3">Use Effect 3 - Live filtering</Link>
         </li>
+        <li>
+          <Link to="/context1">Use Contex api</Link>
+        </li>
       </ul>
     </main>
   )
