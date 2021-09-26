@@ -13,6 +13,7 @@ import Effect2 from './Effect2';
 import Effect3 from './Effect3';
 import Context1 from './Context1'
 import Context2 from './Context2'
+import MyHook1 from './MyHook1';
 
 export default function Routes() {
   return(
@@ -29,6 +30,7 @@ export default function Routes() {
       <Route component = { Effect3 } path="/effect3" exact />
       <Route component = { Context1 } path="/context1" exact />
       <Route component = { Context2 } path="/context2" exact />
+      <Route component = { MyHook1 } path="/myhook1" exact />
 
     </BrowserRouter>
   )

@@ -40,6 +40,9 @@ export default function Home() {
         <li>
           <Link to="/context2">Use Contex api - top organized</Link>
         </li>
+        <li>
+          <Link to="/myhook1">My Hook1</Link>
+        </li>
       </ul>
     </main>
   )
