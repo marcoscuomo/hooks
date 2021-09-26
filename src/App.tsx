@@ -3,6 +3,7 @@ import React, { useState, Dispatch, SetStateAction } from 'react';
 import Routes from './routes';
 import './App.css';
 import { DataContext, appCtxDefaultValue} from './data/DataContext'
+import Store from './data/Store';
 
 
 function App() {
@@ -12,9 +13,11 @@ function App() {
 
   return (
     <>
-    <DataContext.Provider value={{state, setState}}>
-      <Routes />
-    </DataContext.Provider>
+    <Store>
+      <DataContext.Provider value={{state, setState}}>
+        <Routes />
+      </DataContext.Provider>
+    </Store>
     </>
   );
 }

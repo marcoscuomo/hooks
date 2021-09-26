@@ -37,6 +37,9 @@ export default function Home() {
         <li>
           <Link to="/context1">Use Contex api</Link>
         </li>
+        <li>
+          <Link to="/context2">Use Contex api - top organized</Link>
+        </li>
       </ul>
     </main>
   )
