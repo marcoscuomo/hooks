@@ -43,6 +43,12 @@ export default function Home() {
         <li>
           <Link to="/myhook1">My Hook1</Link>
         </li>
+        <li>
+          <Link to="/ref1">Use Ref 1</Link>
+        </li>
+        <li>
+          <Link to="/ref2">Use Ref 2</Link>
+        </li>
       </ul>
     </main>
   )
