@@ -49,6 +49,9 @@ export default function Home() {
         <li>
           <Link to="/ref2">Use Ref 2</Link>
         </li>
+        <li>
+          <Link to="/callback">Use Callback</Link>
+        </li>
       </ul>
     </main>
   )
