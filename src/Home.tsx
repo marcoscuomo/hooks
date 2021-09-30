@@ -52,6 +52,9 @@ export default function Home() {
         <li>
           <Link to="/callback">Use Callback</Link>
         </li>
+        <li>
+          <Link to="/reducer3">Use Reducer - Case 3</Link>
+        </li>
       </ul>
     </main>
   )
