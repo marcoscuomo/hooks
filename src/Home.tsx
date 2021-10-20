@@ -55,6 +55,9 @@ export default function Home() {
         <li>
           <Link to="/reducer3">Use Reducer - Case 3</Link>
         </li>
+        <li>
+          <Link to="/ref3">Use Ref - Case 3</Link>
+        </li>
       </ul>
     </main>
   )

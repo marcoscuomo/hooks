@@ -17,6 +17,7 @@ import Context2 from './Context2'
 import MyHook1 from './MyHook1';
 import Ref1 from './Ref1';
 import Ref2 from './Ref2';
+import Ref3 from './Ref3';
 import Callback from './Callback';
 
 export default function Routes() {
@@ -38,6 +39,7 @@ export default function Routes() {
       <Route component = { MyHook1 } path="/myhook1" exact />
       <Route component = { Ref1 } path="/ref1" exact />
       <Route component = { Ref2 } path="/ref2" exact />
+      <Route component = { Ref3 } path="/ref3" exact />
       <Route component = { Callback } path="/callback" exact />
 
     </BrowserRouter>
